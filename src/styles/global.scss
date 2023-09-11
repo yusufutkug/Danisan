@@ -1,0 +1,36 @@
+@import "./variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main{
+  font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #2f4050;
+  font-size: 13px;
+  color: #676a6c;
+  display: flex;
+  height: 100vh;
+  
+  .leftContainer{
+    border-right: 2px solid $soft-bg;
+    width: 15%;
+  }
+
+  .rightContainer{
+    background-color: $soft-bg;
+    width: 85%;
+    flex-direction: column;
+    overflow-y: auto;   
+  } 
+}
+
+
+
